@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import SuperComponent from './superComponent';
+import HidePassword from './HidePassword';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         </a>
       </header>
       <SuperComponent> Salut tout le monde ! </SuperComponent>
+      <HidePassword>toto</HidePassword>
     </div>
   );
 }
