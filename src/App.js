@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import SuperComponent from './superComponent';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <SuperComponent> Salut tout le monde ! </SuperComponent>
     </div>
   );
 }
